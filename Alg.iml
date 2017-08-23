@@ -9,6 +9,19 @@
     <libelement value="jar://$USER_HOME$/Downloads/Invoice/lib/spring-context-support-4.0.3.RELEASE.jar!/" />
     <libelement value="jar://$USER_HOME$/Downloads/Invoice/lib/spring-core-4.0.3.RELEASE.jar!/" />
     <libelement value="jar://$USER_HOME$/Downloads/Invoice/lib/spring-expression-4.0.3.RELEASE.jar!/" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/commons-logging-1.2.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/log4j-1.2.17.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-aop-4.0.3.RELEASE.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-beans-4.0.3.RELEASE.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-context-4.0.3.RELEASE.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-context-support-4.0.3.RELEASE.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-core-4.0.3.RELEASE.jar" />
+    <libelement value="file://$USER_HOME$/Downloads/Invoice/lib/spring-expression-4.0.3.RELEASE.jar" />
+    <libelement value="jar://$MODULE_DIR$/../lib/hibernatejar/ojdbc6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../lib/ojdbc14.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../www/lib/java/twofish-0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-log4j.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/apache-commons-lang.jar.zip!/" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
@@ -20,74 +33,47 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
-      <library name="commons-logging-1.2.jar">
+      <library name="ojdbc6.jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../lib/hibernatejar/ojdbc6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="log4j-1.2.17.jar">
+      <library name="ojdbc14.jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/log4j-1.2.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/../lib/ojdbc14.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="spring-aop-4.0.3.RELEASE.jar">
+      <library name="twofish-0.0.jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-aop-4.0.3.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../www/lib/java/twofish-0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="spring-beans-4.0.3.RELEASE.jar">
+      <library name="ant-apache-log4j.jar">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-beans-4.0.3.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-log4j.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="spring-context-4.0.3.RELEASE.jar">
+      <library name="apache-commons-lang.jar.zip">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-context-4.0.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="spring-context-support-4.0.3.RELEASE.jar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-context-support-4.0.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="spring-core-4.0.3.RELEASE.jar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-core-4.0.3.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="spring-expression-4.0.3.RELEASE.jar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Invoice/lib/spring-expression-4.0.3.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/apache-commons-lang.jar.zip!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
