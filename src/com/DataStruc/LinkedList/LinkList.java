@@ -2,6 +2,8 @@ package com.DataStruc.LinkedList;
 
 public class LinkList {
 	private Link firstLink;
+	 Link reverseLink;
+	 Link prev;
 
 	public LinkList() {
 		this.firstLink = null;
@@ -34,6 +36,41 @@ public class LinkList {
 			System.out.println("The values in linkedList are " + displayLink.data);
 		}
 	}
+
+
+	public void reverseList(Link firstLink){
+		if (firstLink != null) {
+			Link newLink = firstLink;
+	        while(newLink.next != null){
+	        	insertReverseLink(newLink.data);
+	        	newLink= newLink.next;
+			}
+			insertReverseLink(newLink.data);
+
+		}
+
+
+	}
+
+
+
+	private void insertReverseLink(int data) {
+		Link newRverLink = new Link(data);
+        newRverLink.next = reverseLink;
+		reverseLink =  newRverLink;
+	}
+
+	public void displayReverse() {
+		if (prev != null) {
+			Link displayLink = prev;
+			while (displayLink.next != null) {
+				System.out.println("The values in linkedList are " + displayLink.data);
+				displayLink = displayLink.next;
+			}
+			System.out.println("The values in linkedList are " + displayLink.data);
+		}
+	}
+
 
 	public void removeLinks() {
 		if (firstLink != null) {
@@ -169,5 +206,7 @@ public class LinkList {
 
 		return false;
 	}
+
+
 	
 }

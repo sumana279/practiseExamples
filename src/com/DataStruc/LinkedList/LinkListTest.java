@@ -11,16 +11,19 @@ public class LinkListTest {
 		ll.insertLink(1);
 		ll.insertLink(9);
 		ll.display();
-        System.out.println(ll.loopInALinkedList());
+     //   System.out.println(ll.loopInALinkedList());
 		LinkList l2 = new LinkList();
 		l2.insertLink(1);
 		l2.insertLink(2);
-		l2.display();
+		//l2.display();
 		listCompare(ll, l2);
 
 		System.out.println("Watchout");
-
-		ll.display();
+ll.reveserDiff();
+//ll.display();
+		//ll.display();
+	//	ll.reverseList();
+		ll.displayReverse();
 		// ll.insertDataInSortedLinkedList(3);
 		// ll.find(14);
 		// ll.removeSpecifiedLink(2);
